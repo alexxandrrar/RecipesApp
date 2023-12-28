@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Recipes Project 🍳
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a pet project built using React and TypeScript, focusing on fetching recipes using TheMealDB API and utilizing GraphQL as the state manager.
 
-## Available Scripts
+## Overview 📝
 
-In the project directory, you can run:
+This project aims to create a recipe application that fetches data from TheMealDB API. It's a platform where users can explore various recipes, ingredients, instructions, and related details for different meals.
 
-### `npm start`
+## Features 🌟
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Recipe Browsing**: Users can browse through a variety of recipes available in the database.
+- **Search Functionality**: Search for specific recipes based on ingredients, categories, or names.
+- **Recipe Details**: Detailed view showcasing ingredients, instructions, images...
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used 💻
 
-### `npm test`
+- **React**: Building the frontend of the application.
+- **TypeScript**: Ensuring a strongly typed and scalable codebase.
+- **TheMealDB API**: Fetching recipe data and information.
+- **Evergreen-UI**: Designing the user interface and components.
+- **GraphQL**: Implementing GraphQL for state management.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started 🚀
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository.
+2. Install dependencies using `npm install` or `yarn install`.
+3. Get your API key from TheMealDB and add it to the project configuration (if required).
+4. Run the development server using `npm start` or `yarn start`.
+5. Access the application via [http://localhost:3000](http://localhost:3000) in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgments 🙏
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Special thanks to [TheMealDB](https://www.themealdb.com/api.php) for providing the open API to explore and fetch recipe data.
