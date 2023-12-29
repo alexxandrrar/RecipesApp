@@ -1,6 +1,6 @@
 import React from 'react';
 import { SearchInput } from 'evergreen-ui';
-import { getCombinedClassName } from '../../../utils/helpers';
+import { getCombinedClassName } from 'utils/helpers';
 
 interface ISearch {
     value: string;
