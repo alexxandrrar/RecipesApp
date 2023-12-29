@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
-import Button from '../../components/common/Button';
-import Search from '../../components/common/Search';
+import Button from 'components/common/Button';
+import Search from 'components/common/Search';
 
 export const Home = () => {
     return (
@@ -12,7 +12,7 @@ export const Home = () => {
                     <p>Discover a world of flavors right at your fingertips.</p>
                 </div>
                 <div className="actions">
-                    <Button className="start-btn">Get Start</Button>
+                    <Button className="start-btn">Get Recipe</Button>
                     <Search placeholder='Find recipe' value={''} onChange={function (): void {
                         throw new Error('Function not implemented.');
                     }} />

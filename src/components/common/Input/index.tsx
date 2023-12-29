@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles.scss';
 import { TextInput } from 'evergreen-ui';
-import { getCombinedClassName } from '../../../utils/helpers';
+import { getCombinedClassName } from 'utils/helpers';
+import './styles.scss';
 
 interface IInput {
     value: string;

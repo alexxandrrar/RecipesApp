@@ -1,7 +1,7 @@
 import React,{ ReactNode } from 'react';
 import { Button as ButtonUI } from 'evergreen-ui';
+import { getCombinedClassName } from 'utils/helpers';
 import './styles.scss'
-import { getCombinedClassName } from '../../../utils/helpers';
 
 interface IButton {
     children: ReactNode;
