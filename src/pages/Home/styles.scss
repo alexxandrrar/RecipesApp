@@ -8,32 +8,49 @@
     color: $darkBlue;
     height: 100vh;
 
-    .titles {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
+    .content {
+        width: 60%;
 
-        h1 {
-            margin-bottom: 10px;
-            font-size: 4rem;
-            color: $pink;
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+
+            h1 {
+                font-size: 4rem;
+                color: $pink;
+                margin: 0;
+                justify-content: center;
+            }
+
+            p {
+                margin: 0;
+                align-self: flex-end;
+                font-style: italic;
+            }
         }
 
-        p {
-            margin-bottom: 20px;
-            font-size: 1.2rem;
+
+        .inner {
+            display: flex;
+            justify-content: space-between;
+
+            .button-container {
+                width: 50%;
+                align-items: center;
+                margin-top: 3rem;
+            }
+        }
+
+        .actions {
+            display: flex;
+            justify-content: flex-start;
+
+            .start-btn {
+                margin-right: 2rem;
+            }
         }
     }
-
-    .actions {
-        display: flex;
-        justify-content: flex-start;
-
-        .start-btn {
-            margin-right: 2rem;
-        }
-    }
-
-
 
 }
